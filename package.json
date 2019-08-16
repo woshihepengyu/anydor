@@ -1,0 +1,29 @@
+{
+    "name": "anydor",
+    "version": "1.0.0",
+    "description": "nodejs project static web server",
+    "main": ".eslintrc.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/woshihepengyu/anydor.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/woshihepengyu/anydor/issues"
+    },
+    "homepage": "https://github.com/woshihepengyu/anydor#readme",
+    "devDependencies": {
+        "eslint": "^6.1.0"
+    }
+}

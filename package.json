@@ -25,5 +25,8 @@
     "homepage": "https://github.com/woshihepengyu/anydor#readme",
     "devDependencies": {
         "eslint": "^6.1.0"
+    },
+    "dependencies": {
+        "chalk": "^2.4.2"
     }
 }
